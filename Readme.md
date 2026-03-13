@@ -1,76 +1,35 @@
-\# 📧 AI Customer Email Assistant - Gemini 2.5 Flash
+# ĐỀ 4: TRỢ LÝ VIẾT EMAIL CHĂM SÓC KHÁCH HÀNG / SALES
 
+## 👥 Thông tin nhóm
 
+- **Thành viên:** Hoàng Thị Phương Nhi & Nhóm 7 thành viên.
 
-Dự án \*\*Trợ lý Viết Email Chăm Sóc Khách Hàng\*\* là một ứng dụng web thông minh giúp các doanh nghiệp và nhân viên bán hàng tạo bản thảo email chuyên nghiệp chỉ trong vài giây. Ứng dụng tích hợp công nghệ AI mới nhất từ Google.
+- **Môn học:** Nền tảng Công nghệ Web.
 
+- **Hạn nộp:** 18/03/2026.
 
+## 🚀 Giới thiệu dự án
 
-\## ✨ Tính năng nổi bật
+Ứng dụng sử dụng AI (Gemini API) để hỗ trợ nhân viên sales tạo bản nháp email nhanh chóng dựa trên tên khách hàng và sản phẩm.
 
-\* \*\*AI Writing:\*\* Tự động tạo nội dung email dựa trên tên khách hàng, sản phẩm và mục đích (Giới thiệu, Cảm ơn, Khiếu nại...).
+## 🔗 Đường dẫn triển khai
 
-\* \*\*Công nghệ mới:\*\* Tích hợp mô hình \*\*Gemini 2.5 Flash\*\* (Beta) cho tốc độ xử lý cực nhanh và văn phong tự nhiên.
+- **Vercel Link:** [https://ai-email-assistant-group-nhi.vercel.app]
 
-\* \*\*Validation:\*\* Kiểm tra dữ liệu đầu vào thông minh (chặn ký tự số trong tên, cảnh báo thiếu thông tin).
+- **GitHub Repo:** [Dán link github của Nhi vào đây]
 
-\* \*\*Copy to Clipboard:\*\* Sao chép nội dung email nhanh chóng chỉ với 1 cú click.
+## 🛠 Hướng dẫn cài đặt & Chạy Docker
 
-\* \*\*Giao diện hiện đại:\*\* Thiết kế Responsive, thân thiện với người dùng, màu sắc nhã nhặn chuyên nghiệp.
+1. **Chạy Local:** Mở file index.html trực tiếp trên trình duyệt.
 
+2. **Chạy Docker:**
 
+  - Build image: docker build -t email-ai-app .
 
-\## 🛠 Công nghệ sử dụng
+  - Run container: docker run -d -p 8080:80 email-ai-app
 
-\* \*\*Frontend:\*\* HTML5, CSS3 (Flexbox \& Grid).
+  - Truy cập: localhost:8080
 
-\* \*\*Logic:\*\* JavaScript (ES6+).
+## ⚠️ Lưu ý bảo mật
 
-\* \*\*AI Engine:\*\* Google Gemini API (Model: `gemini-2.5-flash`).
-
-
-
-\## 🚀 Hướng dẫn cài đặt \& Sử dụng
-
-1\.  \*\*Clone dự án:\*\*
-
-&#x20;   ```bash
-
-&#x20;   git clone \[https://github.com/USER\_NAME/REPO\_NAME.git](https://github.com/USER\_NAME/REPO\_NAME.git)
-
-&#x20;   ```
-
-2\.  \*\*Mở ứng dụng:\*\*
-
-&#x20;   Mở file `index.html` bằng trình duyệt web bất kỳ.
-
-3\.  \*\*Sử dụng:\*\*
-
-&#x20;   \* Nhập thông tin khách hàng và sản phẩm.
-
-&#x20;   \* Chọn loại email cần viết.
-
-&#x20;   \* Nhấn \*\*"Tạo Email Bản Nháp"\*\* và đợi AI xử lý trong giây lát.
-
-
-
-\## 📌 Lưu ý
-
-\* Dự án yêu cầu \*\*API KEY\*\* từ Google AI Studio để hoạt động.
-
-\* Hiện tại model `gemini-2.5-flash` đang được cấu hình sẵn trong mã nguồn để đón đầu các bản cập nhật mới nhất từ Google.
-
-
-
-\## 👤 Thông tin nhóm 4
-
-\* \*\*Chuyên ngành:\*\* Công nghệ Web 
-
-\* \*\*Trường:\*\* \[Trường đại học Thủy Lợi]
-
-
-
-\---
-
-\*Dự án này được thực hiện nhằm mục đích học tập và nghiên cứu ứng dụng AI trong thực tế kinh tế - kinh doanh.\*
-
+Lưu ý: API Key được nhúng trực tiếp trong mã nguồn phục vụ mục đích thực hành cuối kỳ theo yêu cầu đề bài. Đây là cách làm không an toàn trong thực tế chuyên nghiệp.
